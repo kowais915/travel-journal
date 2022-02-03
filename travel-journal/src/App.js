@@ -1,9 +1,15 @@
-import logo from './logo.svg';
+import Nav from './components/Nav';
+
 
 
 function App() {
+
+
   return (
-    <></>
+    <>
+      <Nav/>
+
+    </>
   );
 }
 
