@@ -5,6 +5,7 @@
 body{
   margin: 0px;
   padding: 0px;
+  font-family: 'Inter', sans-serif;
 }
 
 nav{
@@ -20,5 +21,21 @@ color: white;
 .location{
   margin: 100px;
   margin-left: 130px;
-  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  
+}
+main{
+width: 620px;
+margin-left: 400px;
+
+
+
+}
+#main{
+  margin: 250px;
+}
+.icon{
+  display: flex;
+  
 }
