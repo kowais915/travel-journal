@@ -17,3 +17,8 @@ background: #F55A5A;
 text-align: center;
 color: white;
 }
+.location{
+  margin: 100px;
+  margin-left: 130px;
+  border: 2px solid black;
+}
