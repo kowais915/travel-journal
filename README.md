@@ -1,3 +1,7 @@
+# Find the deployed app
+
+Here is the link to the [deployed app]( https://kowais915.github.io/travel-journal/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
