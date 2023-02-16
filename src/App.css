@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+body{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Inter', sans-serif;
+}
+
+.nav{
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  width:100%;
+  height: 55px;
+ 
+  
+  padding: 15px;
+  margin-top: -8px;
+  color: white;
+}
+
+
+#root > div > div.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.card{
+  width: 650px;
+
+  margin-top: 120px;
+  
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  margin-top: 40px;
+  
+ 
+  
+
+
+}
+
+.location{
+  display: flex;
+  
+
+}
+
+.location > p{
+  margin: 4px;
+}
+
+#root > div > div.content > div> div.image > img{
+  height: 200px;
+  width: 125px;
+  object-fit: cover;
+}
+.info{
+ margin: 10px;
+ padding: 4px
+}
+
+.image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  background-size: contain;
+  border: transparent 2px solid;
+  border-radius: 30%;
+  
+}
+
+#root > div > div.content > div > div.image > img{
+  border: transparent 2px solid;
+  border-radius: 5%;
+}
+
+.title{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+margin-top: -25px;
+}
+
+#root > div > div.content > div > div.info > div.location{
+  margin-top: 20px;
+}
+#root > div > div.content > div > div.info > div.data > p{
+  margin-top: -20px;
+}
+#root > div > div.content > div> div.info > div.details > p{
+  margin-bottom: 25px;
+}
